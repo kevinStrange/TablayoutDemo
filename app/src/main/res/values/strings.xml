@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TabLayoutDemo</string>
+
+    <string name="activity_main_tab_connection">带支付</string>
+    <string name="activity_main_tab_general">已支付</string>
+    <string name="activity_main_tab_softwareversion">支付失败</string>
+    <string name="activity_main_tab_sound">查看</string>
+</resources>

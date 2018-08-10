@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_title_ids"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    tools:context="com.hongfa.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/activity_main_tab_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/activity_main_tab_textgeneral"
+                    style="@style/TabTitle"
+                    android:text="@string/activity_main_tab_general" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/activity_main_tab_textconnection"
+                    style="@style/TabTitle"
+                    android:text="@string/activity_main_tab_connection" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/activity_main_tab_textsounds"
+                    style="@style/TabTitle"
+                    android:text="@string/activity_main_tab_sound" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart ="30dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/activity_main_tab_textsoftwareversion"
+                    style="@style/TabTitle"
+                    android:text="@string/activity_main_tab_softwareversion" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 选中项下划线 -->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/underline_image"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_gravity="bottom"
+        android:background="@color/b1" />
+
+    <View
+        style="@style/DividerHorizontal"
+        android:layout_gravity="bottom" />
+</FrameLayout>
